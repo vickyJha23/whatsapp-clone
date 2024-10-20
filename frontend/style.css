@@ -1,0 +1,90 @@
+*, *::before, *::after{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+/* // id target  */
+#main{
+    height: 100vh;
+    background: red;
+    overflow: hidden;
+    /* row  */
+    display: flex;
+    /* // default - row me arrange */
+}
+/* #main div{
+    height: 100%;
+} */
+ /* // class  */
+.notification{
+    background: #1F2D33;
+    width: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.not-1{
+    padding-top: 10px;
+}
+.notification .not-1 button{
+    display: block;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.circleContainer{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* background: red; */
+     /* height: 50vh !important; */
+}
+.not-1 .outerCircle{
+     width: 25px !important;
+     height: 25px !important;
+     border: 1px solid white;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.not-1 .innerCircle{
+    width: 15px !important;
+    height: 15px !important;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.not-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.not-2 button {
+     background: transparent;
+     border: none;
+     outline: none;
+     color: white;
+     font-size: 20px;
+     width: 100%;
+     margin-bottom: 15px;
+}
+.avatarContainer{
+    background: white;
+    border-radius: 50%;
+}
+.contact{
+    background: blue;
+    width: 36%;
+}
+.chart{
+    background: yellow;
+    width: 60%;
+}
+
+
