@@ -161,6 +161,50 @@ button{
       color: #8690A0;
       font-size: 16px;
 }
+.contact-main {
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
+.user1{
+     display: flex;
+     gap: 20px;
+     padding: 10px 10px 0 10px;
+     /* transition-property: background-color;
+     transition-delay: 3s;
+     transition-duration: 1s;
+     transition-timing-function: ease-out; */
+     transition: background-color 1s ease-in-out;
+     
+}
+.user1:hover{
+    background-color: #7d7d7d;
+}
+.user1ProfileImage img{
+   border-radius: 50%;
+   object-fit: cover;
+   /* padding: 5px; */
+}
 
-
+.userRecentChat{
+     color: white;
+     padding-top: 6px;
+     border-bottom: 0.05px solid #4e4c4c;
+     width: 100%;
+}
+.userRecentChat h4 {
+     margin-bottom: 2px;
+     font-family: Arial, Helvetica, sans-serif;
+     display: flex;
+     justify-content: space-between;
+}
+.userRecentChat h4 span {
+     font-size: 12px;
+     font-weight: normal;
+     color: #7d7d7d;
+}
+.userRecentChat p{
+    padding-bottom: 10px;
+}
